@@ -2,6 +2,7 @@
 	export let description: string;
 </script>
 
+<!-- In a production environment, this HTML should be sanitized prior to being rendered -->
 <span class="purchase__description">{@html description}</span>
 
 <style>
